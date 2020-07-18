@@ -1,7 +1,7 @@
-package com.rabraham.principles.solid.s.impl;
+package com.rabraham.principles.solid.S.impl;
 
-import com.rabraham.principles.solid.s.Book;
-import com.rabraham.principles.solid.s.Page;
+import com.rabraham.principles.solid.S.Book;
+import com.rabraham.principles.solid.S.Page;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NonNull;
@@ -14,8 +14,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 /**
- * Single Responsibility - a class should only have one responsibility.
- * Furthermore, it should only have one reason to change.
+ * Single Responsibility - a class should only have one responsibility. Furthermore, it should only have one reason to change.
  */
 public class BookImpl implements Book {
     private String title;

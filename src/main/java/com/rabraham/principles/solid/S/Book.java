@@ -1,4 +1,4 @@
-package com.rabraham.principles.solid.s;
+package com.rabraham.principles.solid.S;
 
 import java.util.List;
 

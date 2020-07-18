@@ -1,6 +1,6 @@
-package com.rabraham.principles.solid.s.impl;
+package com.rabraham.principles.solid.S.impl;
 
-import com.rabraham.principles.solid.s.Page;
+import com.rabraham.principles.solid.S.Page;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

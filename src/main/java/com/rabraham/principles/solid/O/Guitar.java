@@ -1,4 +1,4 @@
-package com.rabraham.principles.solid.o;
+package com.rabraham.principles.solid.O;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,14 +12,9 @@ import lombok.Setter;
  */
 @Getter
 @Setter
+@AllArgsConstructor
 public class Guitar {
     private String make;
     private String model;
     private int volume;
-
-    public Guitar(String make, String model, int volume) {
-        this.make = make;
-        this.model = model;
-        this.volume = volume;
-    }
 }

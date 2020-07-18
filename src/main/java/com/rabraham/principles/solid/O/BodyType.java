@@ -1,4 +1,4 @@
-package com.rabraham.principles.solid.o;
+package com.rabraham.principles.solid.O;
 
 public enum BodyType {
     SOLID_BODY,
