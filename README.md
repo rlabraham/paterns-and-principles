@@ -19,3 +19,16 @@ With the Strategy Pattern, a class behavior or its algorithm can be changed at r
 When implementing the Strategy Pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of the context object.
 
 ![strategy pattern](https://www.tutorialspoint.com/design_pattern/images/strategy_pattern_uml_diagram.jpg)
+
+###Observer Pattern
+
+The Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified that it's dependent objects are to be notified automatically.
+
+![observer pattern](https://www.tutorialspoint.com/design_pattern/images/observer_pattern_uml_diagram.jpg)
+
+##Misc
+###Project Lombok
+This project uses Project Lombok to handle most of the boilerplate code. See https://projectlombok.org/ for more information.
+
+###Slf4j
+This project uses SLF4J for logging. See http://www.slf4j.org/ for more information.

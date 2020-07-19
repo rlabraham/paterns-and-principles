@@ -13,9 +13,7 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
-/**
- * Single Responsibility - a class should only have one responsibility. Furthermore, it should only have one reason to change.
- */
+
 public class BookImpl implements Book {
     private String title;
     private String author;
