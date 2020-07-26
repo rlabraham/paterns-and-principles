@@ -34,6 +34,12 @@ The Command pattern is a data driven design pattern. A request is wrapped under 
 
 ![command pattern](https://www.tutorialspoint.com/design_pattern/images/command_pattern_uml_diagram.jpg)
 
+### Iterator Pattern
+
+Iterator pattern is very commonly used design pattern in Java and .Net programming environment. This pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation.
+
+![iterator pattern](https://www.tutorialspoint.com/design_pattern/images/iterator_pattern_uml_diagram.jpg)
+
 ## Misc
 
 ### Project Lombok
