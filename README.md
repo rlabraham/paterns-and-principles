@@ -28,6 +28,12 @@ The Observer pattern is used when there is one-to-many relationship between obje
 
 ![observer pattern](https://www.tutorialspoint.com/design_pattern/images/observer_pattern_uml_diagram.jpg)
 
+### Command Pattern
+
+The Command pattern is a data driven design pattern. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
+
+![command pattern](https://www.tutorialspoint.com/design_pattern/images/command_pattern_uml_diagram.jpg)
+
 ## Misc
 
 ### Project Lombok
