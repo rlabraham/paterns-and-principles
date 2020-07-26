@@ -40,6 +40,12 @@ Iterator pattern is very commonly used design pattern in Java and .Net programmi
 
 ![iterator pattern](https://www.tutorialspoint.com/design_pattern/images/iterator_pattern_uml_diagram.jpg)
 
+### Template Pattern
+
+In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. This pattern comes under behavior pattern category.
+
+![template pattern](https://www.tutorialspoint.com/design_pattern/images/template_pattern_uml_diagram.jpg)
+
 ## Misc
 
 ### Project Lombok
