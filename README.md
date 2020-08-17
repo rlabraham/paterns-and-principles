@@ -54,6 +54,12 @@ In Null Object pattern, we create an abstract class specifying various operation
 
 ![null object pattern](https://www.tutorialspoint.com/design_pattern/images/null_pattern_uml_diagram.jpg)
 
+### Visitor Pattern
+
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, the execution algorithm of an element can vary as and when the visitor varies. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
+![visitor pattern](https://www.tutorialspoint.com/design_pattern/images/visitor_pattern_uml_diagram.jpg) 
+
 ## Misc
 
 ### Project Lombok
