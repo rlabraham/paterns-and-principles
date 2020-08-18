@@ -60,6 +60,14 @@ In Visitor pattern, we use a visitor class which changes the executing algorithm
 
 ![visitor pattern](https://www.tutorialspoint.com/design_pattern/images/visitor_pattern_uml_diagram.jpg) 
 
+## Creational Patterns
+
+#### Singleton Pattern
+
+This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+
+![singleton pattern](https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg)
+
 ## Misc
 
 ### Project Lombok
