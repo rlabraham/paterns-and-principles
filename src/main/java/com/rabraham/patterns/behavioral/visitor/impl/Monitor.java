@@ -4,6 +4,8 @@ import com.rabraham.patterns.behavioral.visitor.ComputerPart;
 import com.rabraham.patterns.behavioral.visitor.ComputerPartVisitor;
 
 public class Monitor implements ComputerPart {
+
+    @Override
     public void accept(ComputerPartVisitor computerPartVisitor) {
         computerPartVisitor.visit(this);
     }
