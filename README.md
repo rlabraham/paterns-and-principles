@@ -62,11 +62,17 @@ In Visitor pattern, we use a visitor class which changes the executing algorithm
 
 ## Creational Patterns
 
-#### Singleton Pattern
+### Singleton Pattern
 
 This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
 
 ![singleton pattern](https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg)
+
+### Factory Pattern
+
+In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+![factory pattern](https://www.tutorialspoint.com/design_pattern/images/factory_pattern_uml_diagram.jpg)
 
 ## Misc
 
@@ -75,3 +81,6 @@ This project uses Project Lombok to handle most of the boilerplate code. See htt
 
 ### Slf4j
 This project uses SLF4J for logging. See http://www.slf4j.org/ for more information.
+
+### Apache Commons-Lang
+This project uses the Apache Commons-Lang library in several places. See https://commons.apache.org/proper/commons-lang/ for more information.
