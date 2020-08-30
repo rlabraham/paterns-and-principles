@@ -74,6 +74,12 @@ In Factory pattern, we create object without exposing the creation logic to the 
 
 ![factory pattern](https://www.tutorialspoint.com/design_pattern/images/factory_pattern_uml_diagram.jpg)
 
+### Builder Pattern
+
+Builder pattern builds a complex object using simple objects and using a step by step approach. This pattern provides one of the best ways to create an object.
+
+![builder pattern](https://www.tutorialspoint.com/design_pattern/images/builder_pattern_uml_diagram.jpg)
+
 ## Misc
 
 ### Project Lombok
