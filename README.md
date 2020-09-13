@@ -92,6 +92,15 @@ Data Access Object Pattern or DAO pattern is used to separate low level data acc
    
 ![data access object pattern](https://www.tutorialspoint.com/design_pattern/images/dao_pattern_uml_diagram.jpg)
 
+## Structural Patterns
+
+### Decorator Pattern
+
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This pattern acts as a wrapper to existing class.
+
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+![decorator pattern](https://www.tutorialspoint.com/design_pattern/images/decorator_pattern_uml_diagram.jpg)
 
 ## Misc
 
