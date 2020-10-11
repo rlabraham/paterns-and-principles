@@ -102,6 +102,14 @@ This pattern creates a decorator class which wraps the original class and provid
 
 ![decorator pattern](https://www.tutorialspoint.com/design_pattern/images/decorator_pattern_uml_diagram.jpg)
 
+#### Facade Pattern
+
+Facade pattern hides the complexities of the system and provides an interface to the client which the client can use to access the system. This pattern adds an interface to existing system to hide its complexities.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
+@[facade pattern]()
+
 ## Misc
 
 ### Project Lombok
