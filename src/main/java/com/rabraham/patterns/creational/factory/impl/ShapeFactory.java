@@ -7,16 +7,14 @@ public class ShapeFactory {
     //use getShape method to get object of type shape
     public Shape getShape(String shapeType){
 
-        if (StringUtils.isNotEmpty(shapeType)) {
-            if (shapeType.equalsIgnoreCase("CIRCLE")) {
-                return new Circle();
+        if (StringUtils.equalsIgnoreCase(shapeType, "CIRCLE")) {
+            return new Circle();
 
-            } else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
-                return new Rectangle();
+        } else if (StringUtils.equalsIgnoreCase(shapeType, "RECTANGLE")) {
+            return new Rectangle();
 
-            } else if (shapeType.equalsIgnoreCase("SQUARE")) {
-                return new Square();
-            }
+        } else if (StringUtils.equalsIgnoreCase(shapeType, "SQUARE")) {
+            return new Square();
         }
 
         return null;
