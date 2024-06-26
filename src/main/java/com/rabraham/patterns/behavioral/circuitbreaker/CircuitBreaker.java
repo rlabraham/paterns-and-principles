@@ -1,4 +1,4 @@
-package com.rabraham.patterns.circuitbreaker;
+package com.rabraham.patterns.behavioral.circuitbreaker;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

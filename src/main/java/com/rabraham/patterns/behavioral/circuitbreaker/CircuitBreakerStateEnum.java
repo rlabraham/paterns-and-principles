@@ -1,4 +1,4 @@
-package com.rabraham.patterns.circuitbreaker;
+package com.rabraham.patterns.behavioral.circuitbreaker;
 
 public enum CircuitBreakerStateEnum {
     OPEN,
